@@ -7,3 +7,7 @@ wb = openpyxl.Workbook()
 ws = wb.active
 
 # Sheet 이름 변경
+ws.title = '자동화로만든거임'
+
+# 엑셀 저장
+wb.save('자동화된엑셀.xlsx')
